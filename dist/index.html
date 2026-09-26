@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#12100f" />
+    <meta
+      name="description"
+      content="Catálogo digital da Raio de Sol Doceria, organizado em doces tradicionais, gourmet, florais e finos."
+    />
+    <title>Raio de Sol Doceria — Catálogo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <aside class="catalog-index" aria-label="Índice do catálogo">
+      <nav>
+        <a href="#tradicionais" data-section="tradicionais"><span>01</span> Tradicionais</a>
+        <a href="#gourmet" data-section="gourmet"><span>02</span> Gourmet</a>
+        <a href="#florais" data-section="florais"><span>03</span> Florais</a>
+        <a href="#finos" data-section="finos"><span>04</span> Finos</a>
+        <a href="#personalizados" data-section="personalizados"><span>05</span> Personalizados</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="cover" id="capa" aria-labelledby="cover-title">
+        <div class="cover-photo cover-slideshow" role="img" aria-label="Doces e mesas especiais da Raio de Sol Doceria">
+          <img class="cover-slide slide-one is-active" src="./assets/capa-1.jpg" alt="Mesa de doces decorada" />
+          <img class="cover-slide slide-two" src="./assets/capa-2.jpg" alt="Doces artesanais em exposição" />
+          <img class="cover-slide slide-three" src="./assets/capa-3.jpg" alt="Mesa de doces para evento" />
+        </div>
+        <div class="cover-shade"></div>
+
+        <div class="cover-topline">
+          <span>Raio de Sol</span>
+          <span>Doces artesanais</span>
+          <span>Catálogo 2026</span>
+        </div>
+
+        <div class="brand-seal cover-logo">
+          <img src="./assets/logo-raio-de-sol-transparente.png?v=3" alt="Raio de Sol Doceria" />
+        </div>
+
+        <a class="scroll-note" href="#sumario">
+          <span>Conheça a coleção</span>
+          <i aria-hidden="true">↓</i>
+        </a>
+      </section>
+
+      <section class="editorial-intro" id="sumario" aria-labelledby="intro-title">
+        <div class="chapter-number">00</div>
+        <div class="intro-copy">
+          <p class="eyebrow coral">Nosso catálogo</p>
+          <h2 id="intro-title">Doceria Raio de Sol —<br /><em>Uma história de amor,<br />superação e sabor.</em></h2>
+        </div>
+        <div class="intro-story">
+          <p>A Doceria Raio de Sol nasceu de uma história de amor, parceria e superação. Somos Maria Lyvianne e Nilton Carlos, um casal que, diante de momentos difíceis e desafios financeiros, decidiu unir forças e talentos para transformar a dificuldade em oportunidade.</p>
+          <p>Com muito carinho, começamos a fazer brigadeiros gourmet e a vender no comércio da nossa cidade, Escada. Foi ali, entre receitas, embalagens e sorrisos de clientes satisfeitos, que percebemos que estávamos construindo algo muito especial.</p>
+          <p>A aceitação foi tão linda que as encomendas foram crescendo, e a cozinha da nossa casa virou o ponto de partida para um sonho que foi tomando forma. Aos poucos, a Doceria Raio de Sol deixou de ser apenas uma renda extra e se tornou um verdadeiro sonho realizado — um sonho que começou pequeno, mas cheio de amor e esperança.</p>
+          <p>Trabalhamos com muito orgulho com doces gourmet, tradicionais e também doces finos para casamentos, festas de 15 anos e outros eventos especiais. Cada encomenda é feita com um toque único, levando beleza, sabor e emoção para a sua comemoração.</p>
+          <p>Nossa missão vai muito além de adoçar: queremos fazer parte de momentos inesquecíveis na vida de cada cliente. Atendemos com carinho toda a população, sempre buscando oferecer qualidade, atendimento humanizado e um sabor que marque a memória.</p>
+          <p>A Doceria Raio de Sol é o nosso sonho vivo — e sabemos que ainda temos muito mais a conquistar. Com fé, trabalho e o apoio de cada cliente que acredita em nós, seguimos crescendo e criando novas delícias para você.</p>
+          <p class="intro-invitation">Agora que você conhece um pedacinho da nossa história, te convidamos a explorar nosso cardápio e escolher os doces que vão adoçar o seu momento!</p>
+        </div>
+        <div class="category-map" aria-label="Categorias">
+          <a href="#tradicionais"><b>01</b><span>Doces<br />Tradicionais</span></a>
+          <a href="#gourmet"><b>02</b><span>Doces<br />Gourmet</span></a>
+          <a href="#florais"><b>03</b><span>Doces<br />Florais</span></a>
+          <a href="#finos"><b>04</b><span>Doces<br />Finos</span></a>
+          <a href="#personalizados"><b>05</b><span>Doces<br />Personalizados</span></a>
+        </div>
+      </section>
+
+      <section class="catalog-chapter" id="tradicionais" data-observe>
+        <header class="chapter-heading">
+          <div>
+            <span class="chapter-kicker">Capítulo 01</span>
+            <h2>Doces<br /><em>Tradicionais</em></h2>
+          </div>
+          <p>Receitas afetivas, sabores conhecidos e textura de infância.</p>
+        </header>
+        <div class="product-showcase">
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/brigadeiro-tradicional.png" alt="Uma unidade de brigadeiro tradicional" /></div>
+            <div class="sweet-copy">
+              <span class="product-count">01 / 06</span>
+              <h3>Brigadeiro<br />Tradicional</h3>
+              <dl class="price-list"><div><dt>Unidade</dt><dd>R$ 1,60</dd></div><div><dt>Cento</dt><dd>R$ 150,00</dd></div></dl>
+            </div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/tradicionais/brigadeiro-coco.png" alt="Uma unidade de brigadeiro de coco" /></div>
+            <div class="sweet-copy"><span class="product-count">02 / 06</span><h3>Brigadeiro<br />de Coco</h3><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 1,60</dd></div><div><dt>Cento</dt><dd>R$ 150,00</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/tradicionais/brigadeiro-casadinho.png" alt="Uma unidade de brigadeiro de casadinho" /></div>
+            <div class="sweet-copy"><span class="product-count">03 / 06</span><h3>Brigadeiro<br />Casadinho</h3><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 1,60</dd></div><div><dt>Cento</dt><dd>R$ 150,00</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/tradicionais/brigadeiro-confete.png" alt="Uma unidade de brigadeiro de confete" /></div>
+            <div class="sweet-copy"><span class="product-count">04 / 06</span><h3>Brigadeiro<br />de Confete</h3><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 1,80</dd></div><div><dt>Cento</dt><dd>R$ 170,00</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/tradicionais/brigadeiro-moranguinho.png" alt="Uma unidade de brigadeiro moranguinho" /></div>
+            <div class="sweet-copy"><span class="product-count">05 / 06</span><h3>Brigadeiro<br />Moranguinho</h3><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 1,60</dd></div><div><dt>Cento</dt><dd>R$ 150,00</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/tradicionais/surpresa-uva.png" alt="Uma unidade de surpresa de uva" /></div>
+            <div class="sweet-copy"><span class="product-count">06 / 06</span><h3>Surpresa<br />de Uva</h3><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 1,60</dd></div><div><dt>Cento</dt><dd>R$ 150,00</dd></div></dl></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog-chapter alternate" id="gourmet" data-observe>
+        <header class="chapter-heading">
+          <div>
+            <span class="chapter-kicker">Capítulo 02</span>
+            <h2>Doces<br /><em>Gourmet</em></h2>
+          </div>
+          <p>Ingredientes marcantes em combinações cremosas e equilibradas.</p>
+        </header>
+        <div class="product-showcase">
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-50-cacau.png" alt="Uma unidade de brigadeiro 50% cacau" /></div><div class="sweet-copy"><span class="product-count">01 / 16</span><h3>Brigadeiro<br />50% Cacau</h3><p>Feito com chocolate nobre 50% cacau.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,50</dd></div><div><dt>Cento</dt><dd>R$ 230,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-romeu-julieta.png" alt="Uma unidade de brigadeiro Romeu e Julieta" /></div><div class="sweet-copy"><span class="product-count">02 / 16</span><h3>Brigadeiro<br />Romeu e Julieta</h3><p>Brigadeiro de queijo parmesão suave com goiabada, finalizado com aplique de goiabada.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,15</dd></div><div><dt>Cento</dt><dd>R$ 200,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-floresta-negra.png" alt="Uma unidade de brigadeiro Floresta Negra" /></div><div class="sweet-copy"><span class="product-count">03 / 16</span><h3>Brigadeiro<br />Floresta Negra</h3><p>Brigadeiro 50% cacau com granulê de chocolate nobre, recheado com cereja e finalizado com roseta de Nutella e cereja.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,30</dd></div><div><dt>Cento</dt><dd>R$ 220,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-ferrero-rocher.png" alt="Uma unidade de brigadeiro tipo Ferrero Rocher" /></div><div class="sweet-copy"><span class="product-count">04 / 16</span><h3>Brigadeiro Tipo<br />Ferrero Rocher</h3><p>Brigadeiro de chocolate 50% cacau, envolto com amendoim e finalizado com Nutella pura.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,30</dd></div><div><dt>Cento</dt><dd>R$ 215,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-oreo.png" alt="Uma unidade de brigadeiro de biscoito Oreo" /></div><div class="sweet-copy"><span class="product-count">05 / 16</span><h3>Brigadeiro de<br />Biscoito Oreo</h3><p>Brigadeiro de biscoito Oreo, finalizado com mini Oreo.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,30</dd></div><div><dt>Cento</dt><dd>R$ 215,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-caramelo-crocante.png" alt="Uma unidade de brigadeiro de caramelo crocante" /></div><div class="sweet-copy"><span class="product-count">06 / 16</span><h3>Brigadeiro de<br />Caramelo Crocante</h3><p>Brigadeiro de caramelo, finalizado com crocante de castanha.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,30</dd></div><div><dt>Cento</dt><dd>R$ 215,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/beijinho-chique.png" alt="Uma unidade de beijinho chique" /></div><div class="sweet-copy"><span class="product-count">07 / 16</span><h3>Beijinho<br />Chique</h3><p></p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,15</dd></div><div><dt>Cento</dt><dd>R$ 200,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-maracuja.png" alt="Uma unidade de brigadeiro de maracujá" /></div><div class="sweet-copy"><span class="product-count">08 / 16</span><h3>Brigadeiro de<br />Maracujá</h3><p></p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,15</dd></div><div><dt>Cento</dt><dd>R$ 200,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-churros.png" alt="Uma unidade de brigadeiro de churros" /></div><div class="sweet-copy"><span class="product-count">09 / 16</span><h3>Brigadeiro de<br />Churros</h3><p></p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,15</dd></div><div><dt>Cento</dt><dd>R$ 200,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-ninho-morango.png" alt="Uma unidade de brigadeiro Ninho com morango" /></div><div class="sweet-copy"><span class="product-count">10 / 16</span><h3>Brigadeiro Ninho<br />com Morango</h3><p></p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,15</dd></div><div><dt>Cento</dt><dd>R$ 200,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-embare.png" alt="Uma unidade de brigadeiro de Embaré" /></div><div class="sweet-copy"><span class="product-count">11 / 15</span><h3>Brigadeiro de<br />Embaré</h3><p>Brigadeiro de chocolate com laranja, envolto por granulê de chocolate e caramelo nobre, finalizado com doce de leite e pedaço de Embaré.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,30</dd></div><div><dt>Cento</dt><dd>R$ 220,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-sensacao.png" alt="Uma unidade de brigadeiro de sensação" /></div><div class="sweet-copy"><span class="product-count">12 / 15</span><h3>Brigadeiro de<br />Sensação</h3><p>Brigadeiro de Nesquik finalizado com granulê de chocolate nobre, com uma pitanga de brigadeiro do mesmo sabor da massa.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,30</dd></div><div><dt>Cento</dt><dd>R$ 220,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-chocolate-branco.png" alt="Uma unidade de brigadeiro de chocolate branco" /></div><div class="sweet-copy"><span class="product-count">13 / 15</span><h3>Brigadeiro de<br />Chocolate Branco</h3><p>Brigadeiro de chocolate branco finalizado com granulê de chocolate branco nobre.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,30</dd></div><div><dt>Cento</dt><dd>R$ 220,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/ninho-com-nutella.png" alt="Uma unidade de Ninho com Nutella" /></div><div class="sweet-copy"><span class="product-count">14 / 15</span><h3>Ninho com<br />Nutella</h3><p></p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,20</dd></div><div><dt>Cento</dt><dd>R$ 210,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-de-ninho.png" alt="Uma unidade de brigadeiro de Ninho" /></div><div class="sweet-copy"><span class="product-count">15 / 15</span><h3>Brigadeiro<br />de Ninho</h3><p></p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,15</dd></div><div><dt>Cento</dt><dd>R$ 200,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-50-cacau-morango.png" alt="Uma unidade de brigadeiro 50% com morango" /></div><div class="sweet-copy"><span class="product-count">16 / 17</span><h3>Brigadeiro 50%<br />com Morango</h3><p></p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,30</dd></div><div><dt>Cento</dt><dd>R$ 215,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/gourmet/brigadeiro-coco-abacaxi.png" alt="Uma unidade de brigadeiro de coco com abacaxi" /></div><div class="sweet-copy"><span class="product-count">17 / 17</span><h3>Brigadeiro de Coco<br />com Abacaxi</h3><p>Brigadeiro de coco com creme de abacaxi, finalizado com coco e pedaço de fruta.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,50</dd></div><div><dt>Cento</dt><dd>R$ 230,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+        </div>
+      </section>
+
+      <section class="catalog-chapter" id="florais" data-observe>
+        <header class="chapter-heading">
+          <div>
+            <span class="chapter-kicker">Capítulo 03</span>
+            <h2>Doces<br /><em>Florais</em></h2>
+          </div>
+          <p>Delicadeza visual, perfume sutil e flores comestíveis.</p>
+        </header>
+        <div class="floral-intro">
+          <div class="floral-banner" aria-label="Exemplos de doces florais">
+            <img src="./assets/floral-1.jpg?v=2" alt="Doces florais claros com flores rosas" />
+            <img src="./assets/floral-2.jpg?v=2" alt="Doces florais em tons de rosa e prata" />
+            <img src="./assets/floral-3.jpg?v=2" alt="Brigadeiros com flores rosas" />
+            <img src="./assets/floral-4.jpg?v=2" alt="Doce floral com flor azul" />
+            <img src="./assets/floral-5.jpg?v=2" alt="Doces com flores coloridas" />
+            <img src="./assets/floral-6.jpg?v=2" alt="Brigadeiros com flores rosas e brancas" />
+          </div>
+          <div class="floral-notice">
+            <div class="floral-notice-copy">
+              <p>Florais feitos para o seu momento.</p>
+              <small>Consulte a atendente: os doces florais são personalizados e podem ser alterados conforme a sua escolha.</small>
+            </div>
+            <div class="floral-starting-price" aria-label="Preço a partir de R$ 3,80 por unidade">
+              <span>A partir de</span>
+              <strong>R$ 3,80</strong>
+              <small>por unidade</small>
+            </div>
+          </div>
+        </div>
+        <div class="product-showcase">
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/florais/trufa-doce-encanto.png" alt="Uma unidade de trufa Doce Encanto com floral rosa" /></div><div class="sweet-copy"><span class="product-count">01 / 04</span><h3>Trufa Doce Encanto<br />com Floral Rosa</h3><p>Trufa com chocolate sabor morango, recheada com brigadeiro de Nesquik e floral de pasta de açúcar.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 4,00</dd></div><div><dt>Cento</dt><dd>R$ 380,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/florais/trufa-branca-floral.png" alt="Uma unidade de trufa branca com floral" /></div><div class="sweet-copy"><span class="product-count">02 / 04</span><h3>Trufa Branca<br />com Floral</h3><p>Recheio da preferência do cliente.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,80</dd></div><div><dt>Cento</dt><dd>R$ 370,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry"><div class="sweet-photo real-sweet"><img src="./assets/florais/caixinha-fluflu.png" alt="Uma unidade de Caixinha Fluflu" /></div><div class="sweet-copy"><span class="product-count">03 / 04</span><h3>Caixinha<br />Fluflu</h3><p>Recheio, cor do floral e tipo do chocolate podem ser escolhidos pelo cliente.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 4,20</dd></div><div><dt>Cento</dt><dd>R$ 400,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+          <article class="sweet-entry mirror"><div class="sweet-photo real-sweet"><img src="./assets/florais/rosa-romantica.png" alt="Uma unidade de Rosa Romântica" /></div><div class="sweet-copy"><span class="product-count">04 / 04</span><h3>Rosa<br />Romântica</h3><p>O doce e a cor do floral podem ser mudados de acordo com a preferência do cliente.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,80</dd></div><div><dt>Cento</dt><dd>R$ 370,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div></article>
+        </div>
+      </section>
+
+      <section class="catalog-chapter alternate" id="finos" data-observe>
+        <header class="chapter-heading">
+          <div>
+            <span class="chapter-kicker">Capítulo 04</span>
+            <h2>Doces<br /><em>Finos</em></h2>
+          </div>
+          <p>Acabamentos precisos para mesas especiais e grandes celebrações.</p>
+        </header>
+        <div class="product-showcase">
+          <article class="sweet-entry fine-variation" data-variation-group="coracao-vazado" data-variation-prefix="coracao-vazado" data-variation-count="4" data-variation-label="Coração Vazado">
+            <div class="sweet-photo real-sweet variation-stage">
+              <img class="variation-image is-active" src="./assets/finos/coracao-vazado-1.png?v=2" alt="Coração vazado com recheio creme e farelos verdes" />
+              <div class="variation-controls" aria-label="Variações do Coração Vazado">
+                <button type="button" class="variation-button is-active" data-variation="0" aria-label="Ver variação 1"></button>
+                <button type="button" class="variation-button" data-variation="1" aria-label="Ver variação 2"></button>
+                <button type="button" class="variation-button" data-variation="2" aria-label="Ver variação 3"></button>
+                <button type="button" class="variation-button" data-variation="3" aria-label="Ver variação 4"></button>
+              </div>
+            </div>
+            <div class="sweet-copy"><span class="product-count">01 / 08</span><h3>Coração<br />Vazado</h3><p>Doce romântico e versátil, que pode ser recheado e adaptado com o sabor escolhido.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,60</dd></div><div><dt>Cento</dt><dd>R$ 350,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror fine-variation" data-variation-group="jarro-cereja" data-variation-prefix="jarro-cereja" data-variation-count="2" data-variation-label="Jarro de Cereja">
+            <div class="sweet-photo real-sweet variation-stage">
+              <img class="variation-image is-active" src="./assets/finos/jarro-cereja-1.png?v=2" alt="Jarro de cereja de chocolate branco" />
+              <div class="variation-controls" aria-label="Variações do Jarro de Cereja">
+                <button type="button" class="variation-button is-active" data-variation="0" aria-label="Ver variação 1"></button>
+                <button type="button" class="variation-button" data-variation="1" aria-label="Ver variação 2"></button>
+              </div>
+            </div>
+            <div class="sweet-copy"><span class="product-count">02 / 08</span><h3>Jarro de<br />Cereja</h3><p>Jarrinho de chocolate branco ou preto com recheio cremoso, finalizado com cereja em calda.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,80</dd></div><div><dt>Cento</dt><dd>R$ 360,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/trufa-encanto-do-mar.png" alt="Uma unidade de Trufa Encanto do Mar" /></div>
+            <div class="sweet-copy"><span class="product-count">03 / 08</span><h3>Trufa Encanto<br />do Mar</h3><p>Concha de chocolate branco com recheio de Ninho com Nutella, finalizada com pérolas.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,80</dd></div><div><dt>Cento</dt><dd>R$ 360,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/uvinha-chique.png" alt="Uma unidade de Uvinha Chique" /></div>
+            <div class="sweet-copy"><span class="product-count">04 / 08</span><h3>Uvinha<br />Chique</h3><p>Brigadeiro surpresa de uva, finalizado com bolinhas de confeito de açúcar e aplique delicado de folha em pasta de açúcar comestível.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,20</dd></div><div><dt>Cento</dt><dd>R$ 310,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/copinho-de-uva.png" alt="Uma unidade de Copinho de Uva" /></div>
+            <div class="sweet-copy"><span class="product-count">05 / 08</span><h3>Copinho<br />de Uva</h3><p>Copinho de chocolate recheado com brigadeiro de Ninho, finalizado com uva verde sem semente.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,20</dd></div><div><dt>Cento</dt><dd>R$ 310,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/coracao-valioso.png" alt="Uma unidade de Coração Valioso" /></div>
+            <div class="sweet-copy"><span class="product-count">06 / 08</span><h3>Coração<br />Valioso</h3><p>Trufa fechada em formato de coração, feita com chocolate branco e recheada com geleia de morango e brigadeiro de Ninho.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,50</dd></div><div><dt>Cento</dt><dd>R$ 340,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/caixinha-de-oreo.png" alt="Uma unidade de Caixinha de Oreo" /></div>
+            <div class="sweet-copy"><span class="product-count">07 / 08</span><h3>Caixinha<br />de Oreo</h3><p>Bombom aberto quadrado de chocolate branco com Oreo, recheado com brigadeiro de Oreo e finalizado com um mini biscoito Oreo.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,30</dd></div><div><dt>Cento</dt><dd>R$ 320,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror fine-variation" data-variation-group="copinho-morango" data-variation-prefix="copinho-morango" data-variation-count="2" data-variation-label="Copinho de Morango">
+            <div class="sweet-photo real-sweet variation-stage">
+              <img class="variation-image is-active" src="./assets/finos/copinho-morango-1.png" alt="Copinho de Morango com recheio de Ninho" />
+              <div class="variation-controls" aria-label="Variações do Copinho de Morango">
+                <button type="button" class="variation-button is-active" data-variation="0" aria-label="Ver variação 1"></button>
+                <button type="button" class="variation-button" data-variation="1" aria-label="Ver variação 2"></button>
+              </div>
+            </div>
+            <div class="sweet-copy"><span class="product-count">08 / 08</span><h3>Copinho de<br />Morango</h3><p>Copinho de chocolate preto ao leite com recheio de Ninho ou chocolate 50%, finalizado com morango fresco.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,50</dd></div><div><dt>Cento</dt><dd>R$ 340,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/cestinha-de-limao.png" alt="Uma unidade de Cestinha de Limão" /></div>
+            <div class="sweet-copy"><span class="product-count">09 / 16</span><h3>Cestinha<br />de Limão</h3><p>Cestinha de chocolate branco com recheio de brigadeiro de mousse de limão, finalizada com raspas e pedaços de limão.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,40</dd></div><div><dt>Cento</dt><dd>R$ 330,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/bombom-rustico-pistache.png" alt="Uma unidade de Bombom Rústico de Pistache" /></div>
+            <div class="sweet-copy"><span class="product-count">10 / 16</span><h3>Bombom Rústico<br />de Pistache</h3><p>Bombom de brigadeiro de pistache envolto em uma camada fina de chocolate branco, finalizado com pistache triturado.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,80</dd></div><div><dt>Cento</dt><dd>R$ 370,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/trufa-da-paixao.png" alt="Uma unidade de Trufa da Paixão" /></div>
+            <div class="sweet-copy"><span class="product-count">11 / 16</span><h3>Trufa da<br />Paixão</h3><p>Trufa de chocolate branco ou preto, personalizável no recheio, finalizada com coração de chocolate dourado.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,50</dd></div><div><dt>Cento</dt><dd>R$ 340,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/casadinho-fino-iniciais.png" alt="Uma unidade de Casadinho Fino Personalizado com Iniciais" /></div>
+            <div class="sweet-copy"><span class="product-count">12 / 16</span><h3>Casadinho Fino<br />Personalizado</h3><p>Casadinho fino personalizado com iniciais.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 2,50</dd></div><div><dt>Cento</dt><dd>R$ 240,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry fine-variation" data-variation-group="copinho-aberto" data-variation-prefix="copinho-aberto" data-variation-count="5" data-variation-label="Copinho Aberto">
+            <div class="sweet-photo real-sweet variation-stage">
+              <img class="variation-image is-active" src="./assets/finos/copinho-aberto-1.png" alt="Copinho Aberto, variação 1" />
+              <div class="variation-controls" aria-label="Variações do Copinho Aberto">
+                <button type="button" class="variation-button is-active" data-variation="0" aria-label="Ver variação 1"></button><button type="button" class="variation-button" data-variation="1" aria-label="Ver variação 2"></button><button type="button" class="variation-button" data-variation="2" aria-label="Ver variação 3"></button><button type="button" class="variation-button" data-variation="3" aria-label="Ver variação 4"></button><button type="button" class="variation-button" data-variation="4" aria-label="Ver variação 5"></button>
+              </div>
+            </div>
+            <div class="sweet-copy"><span class="product-count">13 / 16</span><h3>Copinho<br />Aberto</h3><p>Copinho de chocolate branco ou preto, personalizável com diversos sabores de recheios.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,20</dd></div><div><dt>Cento</dt><dd>R$ 310,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/trufa-simples-meio-amargo.png?v=3" alt="Uma unidade de Trufa Simples Meio Amargo" /></div>
+            <div class="sweet-copy"><span class="product-count">14 / 16</span><h3>Trufa Simples<br />Meio Amargo</h3><p>Trufa de chocolate meio amargo recheada com brigadeiro de 70% cacau.</p><dl class="price-list"><div><dt>Unidade</dt><dd>Sob consulta</dd></div><div><dt>Cento</dt><dd>Sob consulta</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry fine-variation" data-variation-group="copinho-physalis" data-variation-prefix="copinho-physalis" data-variation-count="2" data-variation-label="Copinho de Physalis">
+            <div class="sweet-photo real-sweet variation-stage">
+              <img class="variation-image is-active" src="./assets/finos/copinho-physalis-1.png" alt="Copinho de Physalis, variação 1" />
+              <div class="variation-controls" aria-label="Variações do Copinho de Physalis"><button type="button" class="variation-button is-active" data-variation="0" aria-label="Ver variação 1"></button><button type="button" class="variation-button" data-variation="1" aria-label="Ver variação 2"></button></div>
+            </div>
+            <div class="sweet-copy"><span class="product-count">15 / 16</span><h3>Copinho de<br />Physalis</h3><p>Copinho de chocolate branco ou preto com recheio cítrico ou de chocolate 50%, finalizado com physalis.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,80</dd></div><div><dt>Cento</dt><dd>R$ 370,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry mirror">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/quadradinho-tipo-ferrero.png?v=3" alt="Uma unidade de Quadradinho tipo Ferrero" /></div>
+            <div class="sweet-copy"><span class="product-count">16 / 16</span><h3>Quadradinho<br />Tipo Ferrero</h3><p>Quadradinho de chocolate ao leite recheado com brigadeiro 50%, amendoim e Nutella.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,40</dd></div><div><dt>Cento</dt><dd>R$ 330,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+          <article class="sweet-entry">
+            <div class="sweet-photo real-sweet"><img src="./assets/finos/coracao-de-alianca.png" alt="Uma unidade de Coração de Aliança" /></div>
+            <div class="sweet-copy"><span class="product-count">17 / 17</span><h3>Coração de<br />Aliança</h3><p>Coração de chocolate branco, personalizável com o recheio de sua preferência, finalizado com alianças douradas.</p><dl class="price-list"><div><dt>Unidade</dt><dd>R$ 3,60</dd></div><div><dt>Cento</dt><dd>R$ 350,00</dd></div><div><dt>Peso</dt><dd>20g</dd></div></dl></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="personalized-chapter" id="personalizados" data-observe>
+        <header class="chapter-heading">
+          <div>
+            <span class="chapter-kicker">Capítulo 05</span>
+            <h2>Doces<br /><em>Personalizados</em></h2>
+          </div>
+          <p>Detalhes feitos para transformar cada doce em parte da sua celebração.</p>
+        </header>
+        <div class="personalized-mural">
+          <div class="personalized-intro">
+            <span class="mural-label">Escolha o acabamento</span>
+            <h3>Seu tema,<br /><em>do seu jeito.</em></h3>
+            <p>Personalize seus doces com detalhes pensados para combinar com a sua festa, identidade e momento especial.</p>
+          </div>
+    <div class="personalized-grid">
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-01.jpg" alt="Doces personalizados em vários formatos e cores" /></div></article>
+      <article class="personalized-card featured"><div class="personalized-image"><img src="./assets/personalizados-02.jpg" alt="Doces personalizados com carimbos e formatos temáticos" /></div></article>
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-03.jpg" alt="Doces personalizados em branco e dourado" /></div></article>
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-04.jpg" alt="Doces personalizados para chá revelação" /></div></article>
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-05.jpg" alt="Doces personalizados com símbolos temáticos" /></div></article>
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-06.jpg" alt="Caixa de doces personalizados para celebração" /></div></article>
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-07.jpg" alt="Doces personalizados com carimbos coloridos" /></div></article>
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-08.jpg" alt="Doces personalizados em tons dourados" /></div></article>
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-09.jpg" alt="Mural de doces personalizados coloridos" /></div></article>
+      <article class="personalized-card"><div class="personalized-image"><img src="./assets/personalizados-10.jpg" alt="Doces personalizados azuis e pretos" /></div></article>
+    </div>
+    <div class="personalized-controls" aria-label="Controles das fotos personalizadas">
+      <button type="button" class="personalized-prev" aria-label="Ver grupo anterior">←</button>
+      <div class="personalized-dots" aria-hidden="true"></div>
+      <button type="button" class="personalized-next" aria-label="Ver próximo grupo">→</button>
+    </div>
+    <div class="personalized-prices">
+      <div><span>COM CARIMBOS</span><strong>R$ 2,15</strong></div>
+      <div><span>COM APLIQUES DO TEMA</span><strong>R$ 2,80</strong></div>
+      <div><span>COM EJETOR DO TEMA</span><strong>R$ 3,00</strong></div>
+    </div>
+        </div>
+      </section>
+
+      <footer class="catalog-footer">
+        <div class="footer-brand">
+          <img src="./assets/logo-raio-de-sol-transparente.png?v=3" alt="Raio de Sol Doceria" />
+        </div>
+        <div>
+          <p class="eyebrow coral">Feito para celebrar</p>
+          <h2>Seu momento,<br />nosso cuidado.</h2>
+        </div>
+        <div class="footer-note">
+          <p>Encomendas e valores sob consulta.</p>
+          <p>Imagens e informações demonstrativas para aprovação do conceito.</p>
+        </div>
+        <a class="back-top" href="#capa">Voltar à capa ↑</a>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
