@@ -1459,6 +1459,15 @@ body {
   white-space: nowrap;
 }
 
+/* Use the description typeface for every displayed price and weight. */
+.price-list dd,
+.personalized-prices strong,
+.floral-starting-price strong {
+  font-family: var(--sans);
+  font-weight: 400;
+  letter-spacing: -.02em;
+}
+
 .floral-banner {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
